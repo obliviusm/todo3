@@ -2,17 +2,34 @@ class ProjectsController < ApplicationController
 	def index
 	  	@projects = Project.all
 	  	#@project = Project.new
-      #@task = Task.new
+      	#@task = Task.new
+      	respond_to do |format|
+			format.html 
+			format.js
+			format.json
+		end
 	end
 
 	def show
 		@project = Project.find(params[:id])
 		@task = Task.new
 		@task.project_id = @project.id
+
+		respond_to do |format|
+			format.html 
+			format.js
+			format.json
+		end
 	end
 
 	def new
 		@project = Project.new
+
+		respond_to do |format|
+			format.html 
+			format.js
+			format.json
+		end
 	end
 
 	def create
@@ -22,6 +39,7 @@ class ProjectsController < ApplicationController
 		respond_to do |format|
 			format.html { redirect_to project_path(@project) }
 			format.js
+			format.json
 		end
 	end
 
@@ -32,6 +50,7 @@ class ProjectsController < ApplicationController
 		respond_to do |format|
 			format.html { redirect_to projects_path}
 			format.js
+			format.json
 		end
 	end
 
@@ -41,6 +60,7 @@ class ProjectsController < ApplicationController
 		respond_to do |format|
 			format.html
 			format.js
+			format.json
 		end
 	end
 
@@ -51,6 +71,7 @@ class ProjectsController < ApplicationController
 		respond_to do |format|
 			format.html { redirect_to project_path(@project) }
 			format.js
+			format.json
 		end
 	end
 
