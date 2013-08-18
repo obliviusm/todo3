@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo1</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h1>SIMPLE TODO LISTS</h1>
+            <h2>FROM RUBY GARAGE</h2>
+        </div>
+        <p class="flash"><% flash.notice %></p>
+        <%= yield %>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<%= form_for [@project, @task] , html: {class: "form-horizontal"}, remote: true do |f| %>
+
+    <div class="task_plus"></div>
+
+    <div class="task_input"><%= f.text_field :name, class: "task_input" %></div>
+
+    <div class="form-group">
+    <% f.label :deadline, "The very last day ", class: "col-lg-2 control-label"  %>
+    <% f.date_field :deadline, class: "form-control" %>
+	</div>
+
+    <div class="form-group">
+    <% f.label :status, "Done?", class: "col-lg-2 control-label"  %>
+    <% f.check_box :status %>
+	</div>
+
+    <div class="task_button"><%= f.submit 'Add Task' %></div>
+<% end %>

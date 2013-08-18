@@ -1,0 +1,9 @@
+<%= form_for(@project, remote: true) do |f| %>
+
+    <div class="project_plus"></div>
+
+    <%= f.text_field :name, class: "project_input" %><!--
+
+    --><%= f.submit 'Change Project', class: "project_button" %>
+
+<% end %>
