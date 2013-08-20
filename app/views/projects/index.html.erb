@@ -1,3 +1,9 @@
+<script type="text/javascript">
+    $(function() {
+        window.Todo3.initialize({projects: <%= @projects.to_json.html_safe -%>});
+    });
+</script>
+
 <div class="projects">
 	<%= render @projects %>
 </div>

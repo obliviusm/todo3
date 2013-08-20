@@ -4,13 +4,13 @@ window.Todo3 = {
   Views: {},
   Routers: {},
   initialize: function(data) {
-    alert('Hello from Backbone!');
-    var projects = Todo3.Collections.Projects(data.projects);
-    new Todo3.Routers.Projects({projects: projects});
+    //alert(data.projects[0].id);
+    //var projects = new Todo3.Collections.Projects(data.projects);
+    this.router = new Todo3.Routers.Projects(data.projects);
     Backbone.history.start();
   }
 };
 
-$(document).ready(function(){
-  Todo3.initialize();
-});
+//$(document).ready(function(){
+//  Todo3.initialize();
+//});
