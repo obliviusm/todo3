@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e6f9d2-db61-47b3-9894-056ad8b63acd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/projects/project_show.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/projects/index.jst.ejs" afterPath="$PROJECT_DIR$/app/assets/templates/projects/index.jst.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/models/project.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/models/project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/collections/projects.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/collections/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/projects/projects_index.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/projects/projects_index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/routers/projects_router.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/routers/projects_router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/todo3.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/todo3.js" />
     </list>
     <ignored path="todo3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +15,7 @@
     <file path="/projects_index.js" changelist="b0e6f9d2-db61-47b3-9894-056ad8b63acd" time="1377032492904" ignored="false" />
     <file path="/project_show.js" changelist="b0e6f9d2-db61-47b3-9894-056ad8b63acd" time="1377032476808" ignored="false" />
     <file path="/project.js" changelist="b0e6f9d2-db61-47b3-9894-056ad8b63acd" time="1377026766554" ignored="false" />
+    <file path="/index.jst.ejs" changelist="b0e6f9d2-db61-47b3-9894-056ad8b63acd" time="1377033112226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
       <file leaf-file-name="index.jst.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/projects/index.jst.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="252" selection-end="252" vertical-scroll-proportion="0.2712766">
+            <state line="8" column="5" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3617021">
               <folding />
             </state>
           </provider>
@@ -685,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/projects/index.jst.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="252" selection-end="252" vertical-scroll-proportion="0.2712766">
+        <state line="8" column="5" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3617021">
           <folding />
         </state>
       </provider>
